@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex-direction</title>
+    <style>
+        .continer{
+            border: 3px solid black;
+            padding: 20px;
+        }
+
+        .box{
+            border: 2px solid red;
+            margin: 5px;
+            padding: 20px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .continer :nth-child(odd){
+            background-color: teal;
+        }
+
+        .continer{
+
+            display: flex;
+
+            /* flex-direction: row; */
+            /* flex-direction: column-reverse; */
+             flex-direction: column; 
+        }
+    </style>
+</head>
+<body>
+    <h1>flex-direction </h1>
+    <div class="continer">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+    </div>
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+https://youtu.be/Z4yBSzpAkk0?si=SpZ8kU4tuX2uuFuN
+
+14:46;
